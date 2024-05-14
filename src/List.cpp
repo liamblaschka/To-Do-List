@@ -31,7 +31,7 @@ List::List(sf::Font& font) {
     std::string line;
     if (!file.is_open()) {
         std::ofstream new_file("list.csv", std::ios::app);
-        new_file << "Heading" << ",false\n" << "Task 1" << ",false\n" << "Task 2" << ",false\n" << "Task 3" << ",false\n";
+        new_file << "Title" << ",false\n" << "Task 1" << ",false\n" << "Task 2" << ",false\n" << "Task 3" << ",false\n";
         new_file.close();
         
         file = std::ifstream("list.csv");
