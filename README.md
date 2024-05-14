@@ -1,5 +1,18 @@
 # To-Do-List
 
+## Description
+A To Do List made in C++ using SFML. Features include an editable title, ability to add, delete, edit and reorder tasks, ability to mark tasks as complete with the check box. The tasks are stored in a csv file, their text, order and states are all saved between runs of the program. 
+
+### Skills demonstrated:
+- C++
+- Object Oriented Programming
+- SFML
+- Design of friendly user interface
+
+## Instructions
+- Make a build directory and within it run 'cmake ..' , then when it is finished, run 'make'.
+- Navigate to the bin directory within build.
+- Run the 'todolist' executable.
 
 ## Preview
 <div align="center">
