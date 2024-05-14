@@ -7,7 +7,7 @@ A To Do List made in C++ using SFML. Features include an editable title, ability
 - C++
 - Object Oriented Programming
 - SFML
-- Design of friendly user interface
+- Friendly user interface design
 
 ## Instructions
 - Make a build directory and within it run 'cmake ..' , then when it is finished, run 'make'.
